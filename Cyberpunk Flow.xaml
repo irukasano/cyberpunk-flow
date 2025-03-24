@@ -111,7 +111,7 @@
         x:Key="SeparatorStyle"
         BasedOn="{StaticResource BaseSeparatorStyle}"
         TargetType="{x:Type Rectangle}">
-        <Setter Property="Fill" Value="#664B47AA" />
+        <Setter Property="Fill" Value="#B300AA85" />
         <Setter Property="Height" Value="2" />
         <Setter Property="Margin" Value="0 1 0 0" />
     </Style>
@@ -225,7 +225,7 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Thumb}">
                     <Border
-                        Background="#B370978e"
+                        Background="#B300AA85"
                         BorderBrush="Transparent"
                         BorderThickness="0"
                         CornerRadius="5"
@@ -260,7 +260,7 @@
         x:Key="PreviewItemSubTitleStyle"
         BasedOn="{StaticResource BasePreviewItemSubTitleStyle}"
         TargetType="{x:Type TextBlock}">
-        <Setter Property="Foreground" Value="#FF987DDC" />
+        <Setter Property="Foreground" Value="#FF00AA85" />
         <Setter Property="FontSize" Value="12" />
         <Setter Property="FontStyle" Value="Normal" />
         <Setter Property="FontWeight" Value="Normal" />
