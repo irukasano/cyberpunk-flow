@@ -23,7 +23,7 @@
         BasedOn="{StaticResource BaseWindowBorderStyle}"
         TargetType="{x:Type Border}">
         <Setter Property="BorderThickness" Value="2" />
-        <Setter Property="BorderBrush" Value="#476943C0" />
+        <Setter Property="BorderBrush" Value="#4770978e" />
         <Setter Property="Background" Value="#EE060202"/>
         <Setter Property="CornerRadius" Value="10" />
         <Setter Property="UseLayoutRounding" Value="True" />
@@ -225,7 +225,7 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type Thumb}">
                     <Border
-                        Background="#B35A2ACA"
+                        Background="#B370978e"
                         BorderBrush="Transparent"
                         BorderThickness="0"
                         CornerRadius="5"
@@ -240,7 +240,7 @@
         x:Key="PreviewBorderStyle"
         BasedOn="{StaticResource BasePreviewBorderStyle}"
         TargetType="{x:Type Border}">
-        <Setter Property="BorderBrush" Value="#9C3D464F" />
+        <Setter Property="BorderBrush" Value="#9C70978e" />
         <Setter Property="BorderThickness" Value="1 0 0 0" />
         <Setter Property="Margin" Value="0 0 0 0" />
     </Style>
