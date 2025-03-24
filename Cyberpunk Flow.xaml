@@ -24,8 +24,8 @@
         TargetType="{x:Type Border}">
         <Setter Property="BorderThickness" Value="2" />
         <Setter Property="BorderBrush" Value="#476943C0" />
-        <Setter Property="Background" Value="#FF100D23"/>
-        <Setter Property="CornerRadius" Value="12" />
+        <Setter Property="Background" Value="#EE060202"/>
+        <Setter Property="CornerRadius" Value="10" />
         <Setter Property="UseLayoutRounding" Value="True" />
     </Style>
 
@@ -51,7 +51,7 @@
         x:Key="QuerySuggestionBoxStyle"
         BasedOn="{StaticResource BaseQuerySuggestionBoxStyle}"
         TargetType="{x:Type TextBox}">
-        <Setter Property="Foreground" Value="#9EA091CD" />
+        <Setter Property="Foreground" Value="#9ECA412E" />
     </Style>
 
     <!-- The panel with the time and date -->
@@ -125,14 +125,14 @@
         x:Key="ItemTitleStyle"
         BasedOn="{StaticResource BaseItemTitleStyle}"
         TargetType="{x:Type TextBlock}">
-        <Setter Property="Foreground" Value="#FF9F7DC0" />
+        <Setter Property="Foreground" Value="#FF7aa5ad" />
     </Style>
 
     <Style
         x:Key="ItemTitleSelectedStyle"
         BasedOn="{StaticResource BaseItemTitleSelectedStyle}"
         TargetType="{x:Type TextBlock}">
-        <Setter Property="Foreground" Value="#FF8F53D9" />
+        <Setter Property="Foreground" Value="#FFa4f2fb" />
     </Style>
 
     <!-- Result subtitle -->
@@ -140,14 +140,14 @@
         x:Key="ItemSubTitleStyle"
         BasedOn="{StaticResource BaseItemSubTitleStyle}"
         TargetType="{x:Type TextBlock}">
-        <Setter Property="Foreground" Value="#FF866791" />
+        <Setter Property="Foreground" Value="#FFCAF6FB" />
     </Style>
 
     <Style
         x:Key="ItemSubTitleSelectedStyle"
         BasedOn="{StaticResource BaseItemSubTitleSelectedStyle}"
         TargetType="{x:Type TextBlock}">
-        <Setter Property="Foreground" Value="#FFCC8EC8" />
+        <Setter Property="Foreground" Value="#FFCAF6FB" />
     </Style>
 
     <!-- Result hotkey (Alt+1, Alt+2, etc.) -->
@@ -170,20 +170,20 @@
     </Style>
 
     <Style x:Key="ItemGlyphSelectedStyle" TargetType="{x:Type TextBlock}">
-        <Setter Property="Foreground" Value="#FF00AA85" />
+        <Setter Property="Foreground" Value="#FF00aa85" />
         <Setter Property="Width" Value="20" />
         <Setter Property="Height" Value="20" />
         <Setter Property="FontSize" Value="20" />
     </Style>
 
     <!-- Selected result styles -->
-    <SolidColorBrush x:Key="ItemSelectedBackgroundColor">#FF25143A</SolidColorBrush>
+    <SolidColorBrush x:Key="ItemSelectedBackgroundColor">#FF222e30</SolidColorBrush>
     <CornerRadius x:Key="ItemRadius">6</CornerRadius>
     <Thickness x:Key="ItemMargin">0 0 0 0</Thickness>
 
     <!-- Highlighted text -->
     <Style x:Key="HighlightStyle">
-        <Setter Property="Inline.Foreground" Value="#FF00AA85" />
+        <Setter Property="Inline.Foreground" Value="#FF00aa85" />
         <Setter Property="Inline.FontStyle" Value="Normal" />
         <Setter Property="Inline.FontWeight" Value="Bold" />
     </Style>
@@ -204,7 +204,7 @@
         <Setter Property="Width" Value="4" />
         <Setter Property="Height" Value="32" />
         <Setter Property="CornerRadius" Value="0" />
-        <Setter Property="Background" Value="#FF00AA85" />
+        <Setter Property="Background" Value="#FF00aa85" />
     </Style>
 
 
@@ -249,7 +249,7 @@
         x:Key="PreviewItemTitleStyle"
         BasedOn="{StaticResource BasePreviewItemTitleStyle}"
         TargetType="{x:Type TextBlock}">
-        <Setter Property="Foreground" Value="#FF00AA85" />
+        <Setter Property="Foreground" Value="#FF00aa85" />
         <Setter Property="FontSize" Value="14" />
         <Setter Property="FontStyle" Value="Normal" />
         <Setter Property="FontWeight" Value="Normal" />
@@ -271,7 +271,7 @@
         x:Key="PreviewGlyph"
         BasedOn="{StaticResource BasePreviewGlyph}"
         TargetType="{x:Type TextBlock}">
-        <Setter Property="Foreground" Value="#FF00AA85" />
+        <Setter Property="Foreground" Value="#FF00aa85" />
     </Style>
 
 </ResourceDictionary>
